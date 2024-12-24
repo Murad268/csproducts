@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_AdminLayout";
+}
+@model List<productsApp.Models.Product>
+
+<main class="flex-grow container mx-auto py-8">
+    <h1 class="text-3xl font-semibold mb-6 text-center text-gray-700">Product List</h1>
+    <div class="overflow-x-auto">
+        <table class="table-auto w-full border-collapse bg-white shadow-md rounded-lg">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="border border-gray-300 px-4 py-2 text-left">#</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left">Image</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left">Product Name</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left">Price</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Count > 0)
+                {
+                    int index = 1;
+                    foreach (var product in Model)
+                    {
+                        <tr class="hover:bg-gray-100">
+                            <td class="border border-gray-300 px-4 py-2">@index</td>
+                            <td class="border border-gray-300 px-4 py-2">
+                                <img src="@product.Image" alt="@product.Name" class="w-16 h-16 object-cover rounded-md" />
+                            </td>
+                            <td class="border border-gray-300 px-4 py-2">@product.Name</td>
+                            <td class="border border-gray-300 px-4 py-2">$@product.Price</td>
+                            <td style="display: flex; align-items: center; column-gap: 5px" class="border border-gray-300 px-4 py-2">
+                                <a style="display: flex; justify-content: center; align-items=center; width: max-content; padding: 10px" asp-action="Edit" asp-controller="Admin" asp-route-id="@product.Id" class="bg-blue-500 text-white px-3 py-1 rounded-md shadow-md hover:bg-blue-600">
+                                    <i class="fa fa-edit"></i>
+                                </a>
+                                <a style="display: flex; justify-content: center; align-items=center; width: max-content; padding: 10px" asp-action="Destroy" asp-controller="Admin" asp-route-id="@product.Id" class="bg-red-500 text-white px-3 py-1 rounded-md shadow-md hover:bg-red-600">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        index++;
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="border border-gray-300 px-4 py-2 text-center text-gray-500">
+                            No products available.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</main>

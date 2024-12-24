@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<productsApp.Models.Product>
+
+<main class="flex-grow container mx-auto py-8">
+    <h1 class="text-2xl font-bold text-center mb-6">Products</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        @foreach (var product in Model)
+        {
+            <a asp-action="Detail" asp-asp-controller="Home" asp-route-id="@product.Id" class="border p-4 rounded shadow">
+                <img src="@product.Image" alt="@product.Name" class="w-full h-60 object-cover mb-4">
+                <h2 class="text-lg font-semibold">@product.Name</h2>
+                <p>Count: @product.Count</p>
+                <p>Price: $@product.Price</p>
+            </a>
+        }
+    </div>
+</main>

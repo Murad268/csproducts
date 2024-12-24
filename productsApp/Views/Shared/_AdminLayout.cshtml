@@ -1,0 +1,10 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@await Html.PartialAsync("includes/_AdminHead")
+<body class="flex flex-col min-h-screen">
+    @await Component.InvokeAsync("AdminHeader")
+    @RenderBody()
+    @await Component.InvokeAsync("AdminFooter")
+    @await Html.PartialAsync("includes/_AdminFoot")
+</body>
+</html>

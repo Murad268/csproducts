@@ -1,0 +1,473 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\components\\footer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\components\\footer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\components\\adminfooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\components\\adminfooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\components\\adminheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\components\\adminheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\includes\\_adminhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\includes\\_adminhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\includes\\_adminfoot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\includes\\_adminfoot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\includes\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\includes\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\includes\\_foot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\includes\\_foot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\components\\adminheader\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\components\\adminheader\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\components\\adminfooter\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\components\\adminfooter\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\productsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\productsapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|c:\\users\\techevo computers\\source\\repos\\productsapp\\productsapp\\components\\header.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AF50353-DF20-4A0C-BDF6-92E0146C3951}|productsApp\\productsApp.csproj|solutionrelative:productsapp\\components\\header.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-24T07:09:24.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_AdminHead.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\includes\\_AdminHead.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\includes\\_AdminHead.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\includes\\_AdminHead.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\includes\\_AdminHead.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T07:07:45.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_AdminFoot.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\includes\\_AdminFoot.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\includes\\_AdminFoot.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\includes\\_AdminFoot.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\includes\\_AdminFoot.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T07:07:34.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T07:07:24.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T07:06:56.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T06:44:36.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T06:41:56.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "default.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\components\\AdminHeader\\default.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\components\\AdminHeader\\default.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\components\\AdminHeader\\default.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\components\\AdminHeader\\default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T06:34:00.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "default.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\components\\AdminFooter\\default.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\components\\AdminFooter\\default.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\components\\AdminFooter\\default.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\components\\AdminFooter\\default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T06:33:22.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminFooter.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Components\\AdminFooter.cs",
+              "RelativeDocumentMoniker": "productsApp\\Components\\AdminFooter.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Components\\AdminFooter.cs",
+              "RelativeToolTip": "productsApp\\Components\\AdminFooter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T06:32:28.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminHeader.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Components\\AdminHeader.cs",
+              "RelativeDocumentMoniker": "productsApp\\Components\\AdminHeader.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Components\\AdminHeader.cs",
+              "RelativeToolTip": "productsApp\\Components\\AdminHeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T06:32:04.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T06:28:53.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAACcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T06:27:57.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "productsApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "productsApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T06:27:44.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\Index.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\Index.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T06:27:29.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "productsApp\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "productsApp\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T06:04:54.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "productsApp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Models\\Product.cs",
+              "RelativeToolTip": "productsApp\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T06:03:29.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "productsApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "productsApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T06:00:55.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Home\\Detail.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Home\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Home\\Detail.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Home\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T06:00:54.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "default.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\components\\footer\\default.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\components\\footer\\default.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\components\\footer\\default.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\components\\footer\\default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T05:57:58.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Head.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\includes\\_Head.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\includes\\_Head.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\includes\\_Head.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\includes\\_Head.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T05:56:28.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Foot.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\includes\\_Foot.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\includes\\_Foot.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\includes\\_Foot.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\includes\\_Foot.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T05:56:16.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Footer.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Components\\Footer.cs",
+              "RelativeDocumentMoniker": "productsApp\\Components\\Footer.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Components\\Footer.cs",
+              "RelativeToolTip": "productsApp\\Components\\Footer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T05:50:35.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "default.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\components\\header\\default.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\components\\header\\default.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\components\\header\\default.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\components\\header\\default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T05:49:36.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Header.cs",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Components\\Header.cs",
+              "RelativeDocumentMoniker": "productsApp\\Components\\Header.cs",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Components\\Header.cs",
+              "RelativeToolTip": "productsApp\\Components\\Header.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T05:48:07.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "productsApp.csproj",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\productsApp.csproj",
+              "RelativeDocumentMoniker": "productsApp\\productsApp.csproj",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\productsApp.csproj",
+              "RelativeToolTip": "productsApp\\productsApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-24T05:47:23.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T05:46:22.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "productsApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TechEvo Computers\\source\\repos\\productsApp\\productsApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "productsApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T05:44:25.774Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
