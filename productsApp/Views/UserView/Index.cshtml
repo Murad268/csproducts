@@ -1,4 +1,4 @@
-﻿@model List<productsApp.Models.Product>
+﻿@model IEnumerable<productsApp.Models.Product>
 
 @{
     ViewData["Title"] = "Məhsullar";
@@ -9,7 +9,7 @@
     @foreach (var product in Model)
     {
         <div class="bg-white shadow-md rounded-lg p-4">
-            <h3 class="text-lg font-semibold">@product.Name</h3>
+            <h3 class="text-lg font-semibold"> @Html.DisplayNameFor(p=>p.Name): @product.Name</h3>
             <p class="text-gray-600">@product.Price.ToString("0.00 AZN")</p>
             <a asp-action="Details" asp-route-id="@product.Id" class="text-blue-500 hover:underline mt-2 inline-block">
                 Ətraflı Bax

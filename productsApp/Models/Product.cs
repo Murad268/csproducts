@@ -7,7 +7,7 @@ namespace productsApp.Models
     {
         private static int _Id = 1;
         public int Id { get; private set; }
-
+        [Display(Name="Məhsul")]
         [Required(ErrorMessage = "Name is required.")]
         public string Name { get; set; }
 
