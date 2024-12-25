@@ -32,12 +32,14 @@
         </div>
 
         <div class="mb-4">
-            <label asp-for="CategoryId" class="block text-sm font-medium text-gray-700">Kateqoriya</label>
-            <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Title"))" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
-                <option value="">Seçin</option>
-            </select>
+            <label for="CategoryId" class="block text-sm font-medium text-gray-700">Kateqoriya</label>
+            @Html.DropDownList("CategoryId",
+        new SelectList(ViewBag.Categories, "Id", "Title"),
+        "Kateqoriya seçin",
+        new { @class = "mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm" })
             <span asp-validation-for="CategoryId" class="text-red-500 text-sm"></span>
         </div>
+
 
         <div class="mt-4">
             <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Yarat</button>
