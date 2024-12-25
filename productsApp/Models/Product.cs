@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using productsApp.Utility;
+using System.ComponentModel.DataAnnotations;
 
 namespace productsApp.Models
 {
@@ -28,5 +29,7 @@ namespace productsApp.Models
         {
             this.Id = _Id++;
         }
+
+        public string CategoryName => CategoryUtility.GetCategoryName(this.CategoryId);
     }
 }

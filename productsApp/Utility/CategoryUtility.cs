@@ -2,11 +2,12 @@
 
 namespace productsApp.Utility
 {
-    public class CategoryUtility
+    public static class CategoryUtility
     {
         public static string GetCategoryName(int id)
         {
-            return CategoryRepository.GetCategories().Find(category => category.Id == id).Title;
+            var category = CategoryRepository.GetCategories().Find(c => c.Id == id);
+            return category?.Title ?? "Təyin edilməyib";
         }
     }
 }
