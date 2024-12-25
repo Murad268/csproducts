@@ -8,11 +8,11 @@ namespace productsApp.Repositories
     {
         public static List<Category> categories = new List<Category>()
         {
-            new Category { Id = 1, Title = "Smartphones" },
-            new Category { Id = 2, Title = "Laptops" },
-            new Category { Id = 3, Title = "Gaming Consoles" },
-            new Category { Id = 4, Title = "Headphones" },
-            new Category { Id = 5, Title = "Accessories" }
+            new Category {  Title = "Smartphones" },
+            new Category {  Title = "Laptops" },
+            new Category {  Title = "Gaming Consoles" },
+            new Category {  Title = "Headphones" },
+            new Category {  Title = "Accessories" }
         };
 
         public static List<Category> GetCategories()
@@ -27,8 +27,7 @@ namespace productsApp.Repositories
 
         public static void Add(Category category)
         {
-            int newId = categories.Count > 0 ? categories[^1].Id + 1 : 1;
-            category.Id = newId;
+            
             categories.Add(category);
         }
 
@@ -47,5 +46,8 @@ namespace productsApp.Repositories
             Category category = categories.Find(c => c.Id == id);
             categories.Remove(category);
         }
+
+
+     
     }
 }

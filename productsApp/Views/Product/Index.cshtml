@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    @using productsApp.Utility
 }
 
 @model List<productsApp.Models.Product>
@@ -13,9 +14,11 @@
 <table class="min-w-full bg-white border border-gray-300 rounded-lg overflow-hidden shadow-md">
     <thead class="bg-gray-100">
         <tr>
+            <th class="py-2 px-4 border-b text-left text-sm font-semibold">Id</th>
             <th class="py-2 px-4 border-b text-left text-sm font-semibold">Məhsul Adı</th>
             <th class="py-2 px-4 border-b text-left text-sm font-semibold">Qiyməti</th>
             <th class="py-2 px-4 border-b text-left text-sm font-semibold">Sayı</th>
+            <th class="py-2 px-4 border-b text-left text-sm font-semibold">Kateqoriyası</th>
             <th class="py-2 px-4 border-b text-left text-sm font-semibold text-center">Əməliyyatlar</th>
         </tr>
     </thead>
@@ -23,10 +26,11 @@
         @foreach (var product in Model)
         {
             <tr>
-              
+                <td class="py-2 px-4 border-b text-sm">@product.Id</td>
                 <td class="py-2 px-4 border-b text-sm">@product.Name</td>
                 <td class="py-2 px-4 border-b text-sm">@product.Price.ToString("0.00 AZN")</td>
                 <td class="py-2 px-4 border-b text-sm">@product.Count</td>
+                <td class="py-2 px-4 border-b text-sm">@CategoryUtility.GetCategoryName(@product.CategoryId)</td>
                 <td class="py-2 px-4 border-b text-sm text-center">
                     <a asp-action="Edit" asp-route-id="@product.Id" class="text-blue-500 hover:text-blue-700">
                         <i class="fas fa-edit"></i> Redaktə

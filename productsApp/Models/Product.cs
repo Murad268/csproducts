@@ -4,7 +4,8 @@ namespace productsApp.Models
 {
     public class Product
     {
-        public int Id { get; set; }
+        private static int _Id = 1;
+        public int Id { get; private set; }
 
         [Required(ErrorMessage = "Name is required.")]
         public string Name { get; set; }
@@ -21,6 +22,11 @@ namespace productsApp.Models
         public string Description { get; set; }
 
         [Required(ErrorMessage = "CategoryId is required.")]
-        public int CategoryId { get; set; } // Yeni əlavə olunmuş sahə
+        public int CategoryId { get; set; } 
+        
+        public  Product()
+        {
+            this.Id = _Id++;
+        }
     }
 }
