@@ -28,3 +28,4 @@ C:\Users\TechEvo Computers\source\repos\productsApp\productsApp\obj\Debug\net8.0
 C:\Users\TechEvo Computers\source\repos\productsApp\productsApp\obj\Debug\net8.0\productsApp.pdb
 C:\Users\TechEvo Computers\source\repos\productsApp\productsApp\obj\Debug\net8.0\productsApp.genruntimeconfig.cache
 C:\Users\TechEvo Computers\source\repos\productsApp\productsApp\obj\Debug\net8.0\ref\productsApp.dll
+C:\Users\TechEvo Computers\source\repos\productsApp\productsApp\obj\Debug\net8.0\productsApp.sourcelink.json

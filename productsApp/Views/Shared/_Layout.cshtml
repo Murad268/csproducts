@@ -1,10 +1,17 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-@await Html.PartialAsync("includes/_Head")
-<body class="flex flex-col min-h-screen">
-    @await Component.InvokeAsync("Header")
-    @RenderBody()
-    @await Component.InvokeAsync("Footer")
-    @await Html.PartialAsync("includes/_Foot")
+<html lang="az">
+<head>
+    @await Html.PartialAsync("_Head")
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="min-h-screen flex flex-col">
+        @await Component.InvokeAsync("Header")
+        <main class="flex-grow container mx-auto px-4 py-6">
+            @RenderBody()
+        </main>
+        @await Html.PartialAsync("_Scripts")
+        @await Component.InvokeAsync("Footer")
+    </div>
+    @RenderSection("PageScripts", required: false)
 </body>
 </html>

@@ -1,0 +1,47 @@
+﻿@model productsApp.Models.Product
+
+@{
+    ViewData["Title"] = "Yeni Məhsul Yarat";
+}
+
+<div class="max-w-lg mx-auto bg-white shadow-md rounded-lg p-6">
+    <h2 class="text-xl font-semibold mb-4">Yeni Məhsul Yarat</h2>
+    <form method="post">
+        <div class="mb-4">
+            <label asp-for="Name" class="block text-sm font-medium text-gray-700">Ad</label>
+            <input asp-for="Name" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+            <span asp-validation-for="Name" class="text-red-500 text-sm"></span>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="Price" class="block text-sm font-medium text-gray-700">Qiymət</label>
+            <input asp-for="Price" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+            <span asp-validation-for="Price" class="text-red-500 text-sm"></span>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="Count" class="block text-sm font-medium text-gray-700">Say</label>
+            <input asp-for="Count" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+            <span asp-validation-for="Count" class="text-red-500 text-sm"></span>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="Description" class="block text-sm font-medium text-gray-700">Təsvir</label>
+            <textarea asp-for="Description" rows="4" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"></textarea>
+            <span asp-validation-for="Description" class="text-red-500 text-sm"></span>
+        </div>
+
+        <div class="mb-4">
+            <label asp-for="CategoryId" class="block text-sm font-medium text-gray-700">Kateqoriya</label>
+            <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Title"))" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                <option value="">Seçin</option>
+            </select>
+            <span asp-validation-for="CategoryId" class="text-red-500 text-sm"></span>
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Yarat</button>
+            <a asp-action="Index" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 ml-2">Geri</a>
+        </div>
+    </form>
+</div>

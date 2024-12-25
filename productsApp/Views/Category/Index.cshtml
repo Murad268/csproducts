@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Kateqoriyalar";
+}
+
+@model List<productsApp.Models.Category>
+
+<h2 class="text-xl font-semibold mb-4">Kateqoriyalar</h2>
+<div class="flex justify-end mb-4">
+    <a asp-action="Create" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+        <i class="fas fa-plus"></i> Kateqoriya Əlavə Et
+    </a>
+</div>
+<table class="min-w-full bg-white border border-gray-300 rounded-lg overflow-hidden shadow-md">
+    <thead class="bg-gray-100">
+        <tr>
+            <th class="py-2 px-4 border-b text-left text-sm font-semibold">ID</th>
+            <th class="py-2 px-4 border-b text-left text-sm font-semibold">Kateqoriya Adı</th>
+            <th class="py-2 px-4 border-b text-left text-sm font-semibold text-center">Əməliyyatlar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td class="py-2 px-4 border-b text-sm">@category.Id</td>
+                <td class="py-2 px-4 border-b text-sm">@category.Title</td>
+                <td class="py-2 px-4 border-b text-sm text-center">
+                    <a asp-action="Edit" asp-route-id="@category.Id" class="text-blue-500 hover:text-blue-700">
+                        <i class="fas fa-edit"></i> Redaktə
+                    </a>
+                    <a href="javascript:void(0);" class="ml-2 text-red-500 hover:text-red-700 delete-category" data-id="@category.Id">
+                        <i class="fas fa-trash"></i> Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section PageScripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const deleteButtons = document.querySelectorAll('.delete-category');
+
+            deleteButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const categoryId = this.getAttribute('data-id');
+
+                    Swal.fire({
+                        title: 'Əminsiniz?',
+                        text: "Bu kateqoriyanı silmək istəyirsiniz?",
+                        icon: 'warning',
+                        showCancelButton: true,
+                        confirmButtonColor: '#d33',
+                        cancelButtonColor: '#3085d6',
+                        confirmButtonText: 'Bəli, sil',
+                        cancelButtonText: 'Xeyr, ləğv et'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            window.location.href = `/Category/Delete/${categoryId}`;
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+}

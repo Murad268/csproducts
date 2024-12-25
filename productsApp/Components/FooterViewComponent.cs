@@ -2,7 +2,7 @@
 
 namespace productsApp.Components
 {
-    public class AdminHeader : ViewComponent
+    public class FooterViewComponent : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

@@ -1,5 +1,4 @@
-﻿using System.Buffers.Text;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace productsApp.Models
 {
@@ -7,10 +6,7 @@ namespace productsApp.Models
     {
         public int Id { get; set; }
 
-        public string Image { get; set; } 
-
         [Required(ErrorMessage = "Name is required.")]
-       
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Price is required.")]
@@ -24,5 +20,7 @@ namespace productsApp.Models
         [Required(ErrorMessage = "Description is required.")]
         public string Description { get; set; }
 
+        [Required(ErrorMessage = "CategoryId is required.")]
+        public int CategoryId { get; set; } // Yeni əlavə olunmuş sahə
     }
 }

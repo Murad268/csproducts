@@ -1,5 +1,16 @@
-﻿<header class="bg-blue-500 text-white p-4">
-    <nav class="container mx-auto flex justify-between items-center">
-        <a href="#" class="text-lg font-bold">Home</a>
-    </nav>
+﻿<header class="bg-blue-600 text-white py-4 shadow-md">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Məhsullar Paneli</h1>
+        <nav class="flex space-x-4">
+            <a asp-controller="UserView" asp-action="Index" class="flex items-center text-white hover:underline">
+                <i class="fas fa-user mr-2"></i> İstifadəçi
+            </a>
+            <a asp-controller="Product" asp-action="Index" class="flex items-center text-white hover:underline">
+                <i class="fas fa-box mr-2"></i> Məhsullar
+            </a>
+            <a asp-controller="Category" asp-action="Index" class="flex items-center text-white hover:underline">
+                <i class="fas fa-tags mr-2"></i> Kateqoriyalar
+            </a>
+        </nav>
+    </div>
 </header>
